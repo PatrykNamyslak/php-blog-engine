@@ -1,0 +1,19 @@
+{
+    "name": "patryknamyslak/php-blog-engine",
+    "description": "Fast blogging solution",
+    "type": "library",
+    "require": {
+        "ext-pdo": "*"
+    },
+    "license": "CC-BY-NC-4.0",
+    "autoload": {
+        "psr-4": {
+            "PatrykNamyslak\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Patryk Namyslak"
+        }
+    ]
+}
