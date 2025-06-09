@@ -1,6 +1,6 @@
 {
     "name": "patryknamyslak/php-blog-engine",
-    "description": "Fast blogging solution",
+    "description": "Fast blogging solution written in PHP",
     "type": "library",
     "require": {
         "ext-pdo": "*"
@@ -8,12 +8,13 @@
     "license": "CC-BY-NC-4.0",
     "autoload": {
         "psr-4": {
-            "PatrykNamyslak\\": "src/"
+            "Patryknamyslak\\PhpBlogEngine\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Patryk Namyslak"
+            "name": "Patryk Namyslak",
+            "email": "patryk.namyslak23@gmail.com"
         }
     ]
 }
