@@ -1,7 +1,13 @@
 <?php
 
 namespace PatrykNamyslak;
-class Blog{
 
+class Blog{
+    protected \PDO $database_connection;
+    protected string $posts_table;
+
+    public function getPost(?string $PostID = NULL, ?string $Author = NULL){
+        
+    }
 }
 ?>
