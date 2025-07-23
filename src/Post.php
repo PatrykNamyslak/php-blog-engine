@@ -12,8 +12,8 @@ class Post extends Blog{
     public function __construct(?string $PostID = NULL, ?string $Author = NULL){
         // The below logic easily could be replaced by a switch case statement but this is implemented this way to improve readability
         $FetchBy = match(true){
-            isset($PostID) => 'ID',
-            isset($Author) => 'Author',
+            $PostID => 'ID',
+            $Author => 'Author',
         };
         ################
         $posts_table = parent::$posts_table;
